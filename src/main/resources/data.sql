@@ -1,0 +1,1 @@
+insert into EmployeeRegisterar values (1,'jeremy',12000,'Yes');
