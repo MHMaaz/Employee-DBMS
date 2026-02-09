@@ -89,11 +89,13 @@ public class DatabaseApplication {
 				employData.setEmployee_salary(getSalary());
 				employData.setEmployee_on_site(getStatus());
 				repoLayer.Save(employData);
+				System.out.println("Press Enter vv");
 				scan.nextLine();
 			}
 			else if(action.equals("show")){
 				System.out.println("Showing");
 				System.out.println(repoLayer.getRows());
+				System.out.println("Press Enter vv");
 				scan.nextLine();
 				}
 			else{
